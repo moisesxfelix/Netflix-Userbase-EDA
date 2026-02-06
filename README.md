@@ -33,14 +33,29 @@ We created a new cloumn to extract additional insight from already existing colu
 
 We then begin our analysis by looking at the age range of our dataset
 - We conclude minimum age (26), maximum age (51), and average age (38.8)
+<p align="center">
+  <img src="Graphs/ParticipantsByAge.png" alt="Participants By Age" width="520">
+</p>
 
 We take a look at participating countries and identify that:
 - Spain and the United States have the most subscribers according to our dataset.
 - The United Kingdom leads the was for highest average monthly spend per individual, followed closely by Italy (0.01% behind).
+<p align="center">
+  <img src="Graphs/SubscriptionsPerCountry.png" alt="Subscriptions Per Country" width="520">
+</p>
+<p align="center">
+  <img src="Graphs/MonthlySpend.png" alt="Avg Monthly Spend per Individual by Country" width="520">
+</p>
 
 Having examined subsciption types we concluded that:
 - The basic subsciption was the most popular, 36.5% more than the least popular plan.
 - The standard plan had the longest average lifetime (311 days), ahead of the Premium and Basic plans by 4 days.
+<p align="center">
+  <img src="Graphs/SubPopularity.png" alt="Subscription Popularity" width="520">
+</p>
+<p align="center">
+  <img src="Graphs/SubLifetime.png" alt="Lifespan by Subsciption" width="520">
+</p>
 
 ## Limitations Observed
 **Data Coverage:**
@@ -52,3 +67,6 @@ Having examined subsciption types we concluded that:
 
 **No Causality**
 - Findings do not establish that plan type causes higher revenue or longer retention.
+
+## Next Steps
+To further increase our understanding of user behavior and product popularity by individual and country, looking for a larger data set that contains more information about "plan over time," "cost fluxuation," and previous subscribers over time would provide additional insights. We can also increase our sample size per region to increase the reliability of financial analysis by country.
