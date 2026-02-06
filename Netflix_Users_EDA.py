@@ -93,7 +93,7 @@ ax = df_Sub_Type_Length.plot(kind = "barh")
 ax.set_xlim(275,325)
 plt.xlabel("Days")
 plt.ylabel("Subscription Type")
-plt.title("Avergae Subscription Lifetime by Subscription Type")
+plt.title("Average Subscription Lifetime by Subscription Type")
 plt.tight_layout()
 plt.show()
 
